@@ -1,0 +1,15 @@
+git init
+git checkout -b gh-pages
+git status
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/Arijit1080/cv.git
+git push -u origin gh-pages
+
+To Update:
+
+git pull origin gh-pages
+
+git add .
+git commit -m "second commit"
+git push -u origin gh-pages
